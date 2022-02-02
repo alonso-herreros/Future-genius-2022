@@ -42,9 +42,12 @@ TYPE_CHART = [
 
 
 def computeDamageMultiplier(attackType, targetType1, targetType2=None):
-    # Aquí faltan cosas
-    if targetType2 is not None:
-        # Aquí tambien
+    mult = 1
+    try:
+        mult *= TYPE_CHART[TYPES.index(targetType1)][TYPES.index(attackType)]
+        mult *= TYPE_CHART[TYPES.index(targetType2)][TYPES.index(attackType)]
+    except (ValueError, TypeError): pass
+    return mult
 
 
 
@@ -52,14 +55,8 @@ def computeDamageMultiplier(attackType, targetType1, targetType2=None):
 #"Introduce attack type, target pokemon type1 and target pokemon type2, separated by a comma, without spaces between:
 #"Example1, Blastoise uses Hydro Pump against Charizard --> User Input: Water,Fire,Flying"
 #"Example2, Pidgey uses Tornado against Rattata --> User Input: Flying,Normal"
-userInput = input()
 
-enteredTypes = userInput.split(",")
-if len(enteredTypes) == 2:
-    attack, target1 = enteredTypes[0], enteredTypes[1]
-    damageMultiplier = computeDamageMultiplier(attack, target1)
-elif len(enteredTypes) == 3:
-    attack, target1, target2 = enteredTypes[0], enteredTypes[1], enteredTypes[2]
-    damageMultiplier = computeDamageMultiplier(attack, target1, target2)
+if __name__ == "__main__":
+    enteredTypes = input().split(",")
 
-print("x"+str(damageMultiplier))
+    print("x"+str(computeDamageMultiplier(*enteredTypes)))

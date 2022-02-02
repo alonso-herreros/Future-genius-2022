@@ -19,8 +19,8 @@ Durante el ciberataque a VR Electronics, parte del malware fue descargado como u
 
 Parece que la línea del código que calcula la temperatura medida por el sensor a partir de la señal de voltaje que este emite ha sido borrada, y que esa es la causa de que el sistema no funcione. La persona que diseñó el sistema en el pasado ya no se encuentra en la empresa, pero revisando las notas que tomó durante el desarrollo del mismo encontramos estas anotaciones en las hojas de características del sensor:
 
-![Voltage vs Temperature](Anotaciones_1.jpg)
-![Output characteristics](Anotaciones_2.jpg)
+![Voltage vs Temperature](images/Anotaciones_1.jpg)
+![Output characteristics](images/Anotaciones_2.jpg)
 
 ---
 
@@ -33,7 +33,7 @@ _Iniciar sesión -> Iniciar sesión con Google -> Circuitos -> Crear nuevo circu
 
 ¡Es muy intuitivo! Realiza el montaje mostrado en la siguiente imagen:
 
-![Arduino board wiring](arduino-wiring.png)
+![Arduino board wiring](images/arduino-wiring.png)
 
 Y en la pestaña de código, pega el código suministrado en **[overheatControl.cpp](overheatControl.cpp)**.
 

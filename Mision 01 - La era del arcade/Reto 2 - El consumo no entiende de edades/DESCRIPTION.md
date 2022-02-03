@@ -18,11 +18,11 @@ Ahora no nos queda otra que comenzar a construir los perfiles de nuevo. Muchos d
 
 En una encuesta reciente, se preguntó a 100 jugadores habituales del Space Invaders su edad y la puntuación más alta que habían conseguido en el juego. Los resultados de dicha encuesta aparecen representados en la gráfica:
 
-![Age vs score](age-score.png)
+![Age vs score](images/age-score.png)
 
 Se observa a simple vista que los datos siguen una distribución lineal, por lo que se aplica un algoritmo de regresión lineal para obtener un modelo que relacione la edad de un jugador de Space Invaders con la puntuación máxima que ha obtenido. El resultado es el mostrado en la figura:
 
-![Age vs score - trendline](age-score-trend.png)
+![Age vs score - trendline](images/age-score-trend.png)
 
 Este modelo se corresponde con una recta de pendiente = 214.81 y ordenada en el origen = 179.67.
 Queremos utilizar el modelo para determinad la edad de los jugadores de Space Invaders en base a su puntuación máxima, y así determinar qué anuncios mostrarles con más frecuencia (Por ejemplo, a los jóvenes de Fornite. y a los ancianos, de fijadores para la dentadura postiza).

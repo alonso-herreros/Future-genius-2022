@@ -1,0 +1,11 @@
+Contraseña hasheada: 3d0f3b9ddcacec30c4008c5e030e6c13a478cb4f
+Original: daniel
+Contraseña hasheada: ab87d24bdc7452e55738deb5f868e1f16dea5ace
+Original: monkey
+Contraseña hasheada: ef971ee38bba25d9ac8a840d235457a038448b09
+Original: brandon
+Contraseña hasheada: a6b4f3a5d5ff51dc79fe4efcb32c37b4e805819c
+Original: dancer
+Contraseña hasheada: f1eb08c4e3f8a5ab5761723b1210ad4c30e41dc7
+Original: rainbow
+

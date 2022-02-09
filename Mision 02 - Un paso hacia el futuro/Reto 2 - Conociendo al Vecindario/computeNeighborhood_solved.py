@@ -46,7 +46,3 @@ if __name__ == "__main__":
     if "error" in string:
         sys.exit(string)
     print(string)
-
-    # Check selected cell neighbors
-    string = ''.join([''.join(str(element).split()) for element in grid[cellCol][cellRow].neighbors])
-    print(string)

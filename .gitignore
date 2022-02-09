@@ -1,4 +1,5 @@
 .vscode
 .pytest_cache
+*.code-workspace
 *_cache*
 *__pycache__*

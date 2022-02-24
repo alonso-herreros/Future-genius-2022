@@ -1,0 +1,16 @@
+-2
+numero_no_valido
+-1
+numero_no_valido
+0
+1
+1
+1
+2
+2
+3
+6
+4
+24
+10
+3628800
